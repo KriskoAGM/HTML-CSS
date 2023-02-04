@@ -1,0 +1,111 @@
+@import url(https://fonts.cdnfonts.com/css/mukta);
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+body {
+    font-family: Mukta;
+    background: rgb(2, 0, 36);
+    background-image: url('forest.jpg');
+    background-size: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px black;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.container h1 i {
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.container form {
+    margin: 30px;
+}
+
+form .inputField {
+    text-align: center;
+    position: relative;
+    margin: 10px;
+}
+
+.container .inputField input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+.container .inputField input:focus::placeholder {
+    color: transparent;
+    transition: color 0.50s ease-in-out;
+}
+
+.checkbox{
+    text-align: center;
+}
+
+.checkbox input {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+.checkbox label {
+    color: white;
+    font-size: 13px;
+}
+
+
+.NewMember {
+    text-align: center;
+}
+
+.NewMember a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 13px;
+}
+
+.btn input {
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(0, 152, 20);
+    cursor: pointer;
+    color: white;
+    transition: cursor 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out
+}
+
+.btn input:hover {
+    background-color: rgb(0, 235, 31);
+    color: black;
+    transition: background-color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: rgb(255, 255, 255, 0.4);
+    transition: color 0.25s ease-in-out;
+}

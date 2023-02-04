@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 30px;
+}
+
+header h1, header li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+body {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}

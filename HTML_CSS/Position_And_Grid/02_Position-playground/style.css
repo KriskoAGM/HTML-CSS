@@ -1,0 +1,42 @@
+@import url(https://use.fontawesome.com/releases/v6.0.0/css/all.css);
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.one {
+    background-image: linear-gradient(to right, #185a9d, #007ab4, #0099bb, #00b5b3, #43cea2);
+}
+
+.two {
+    background-image: linear-gradient(to right, #a83279, #c53764, #d6494c, #db6532, #d38312);
+}
+
+section.card {
+    display: block;
+    position: relative;
+}
+
+section img {
+    width: 250px;
+}
+
+.first {
+    position: absolute;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.second {
+    position: absolute;
+    text-align: center;
+    padding: 25px 0;
+}
+
+i {
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    color: white;
+}

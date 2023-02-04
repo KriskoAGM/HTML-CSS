@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Mulish;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("images/form-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+form {
+    padding: 60px 40px;
+    width: 270px;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #333538;
+}
+
+.input-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 5%;
+}
+
+.container input {
+    height: 28px;
+    width: 100%;
+    padding-right: 0px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    outline: none;
+    text-indent: 10px;
+    background: transparent;
+}
+
+.container input:focus {
+    text-indent: 10px;
+}
+
+form p {
+    font-size: 10px;
+    margin-bottom: 6px;
+    margin-top: 9px;
+    color: #333538;
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
+.checkbox label {
+    font-size: 10px;
+}
+
+.checkbox input {
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    height: 10px;
+    width: 10px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn input {
+    width: 120px;
+    height: 30px;
+    background-color: #ae3c33;
+    color: white;
+    font-size: 10px;
+}
+
+.btn input:hover {
+    background-color: #690700;
+    cursor: pointer;
+}
