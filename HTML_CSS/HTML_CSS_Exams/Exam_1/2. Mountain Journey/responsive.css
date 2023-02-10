@@ -2,6 +2,7 @@
 
     body {
         display: grid;
+        max-width: 100%;
     }
 
     header  {
@@ -47,8 +48,8 @@
     }
 
     .choose-us {
-        padding-left: 100px;
-        padding-right: 100px;
+        width: 70%;
+        margin: 0 auto;
     }
 
     .choose-us ul {

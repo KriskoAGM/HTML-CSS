@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+    body {
+        display: grid;
+        width: 100%;
+        margin: unset;
+        position: absolute;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .left-to-right:first-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 25%;
+    }
+
+    main .left-to-right article {
+        display: grid;
+        border-radius: 150px;
+        padding: 50px;
+        width: 85%;
+        height: 70%;
+    }
+
+    main .left-to-right article h1 {
+        font-size: 90px;
+        font-weight: lighter;
+        padding-top: 30px;
+    }
+
+    main .left-to-right article header p {
+        font-size: 45px;
+    }
+
+    main .left-to-right article p {
+        font-size: 40px;
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    main .left-to-right article button {
+        display: none;
+    }
+
+    main section:nth-child(2) button, main section:nth-child(4) button {
+        display: none;
+    }
+
+    article header h1 {
+        font-size: 60px;
+        font-weight: lighter;
+    }
+
+    header p {
+        font-size: 37px;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        display: grid;
+        width: 90%;
+        font-size: 45px;
+        margin-left: 100px;
+    }
+
+    main section:nth-child(2) article, main section:nth-child(4) article {
+        width: 100%;
+    }
+
+    main section:nth-child(2) article img, main section:nth-child(4) article img {
+        width: 100%;
+    }
+
+    main section.left-to-right:nth-child(3) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 25%;
+    }
+
+    form {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section form label input::placeholder, section form textarea::placeholder {
+        font-size: 40px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    form input[type="submit"] {
+        height: 100px;
+        width: 250px;
+        font-size: 50px;
+        border-radius: 10px;
+    }
+    
+
+    section form label input, section form textarea {
+        width: 80%;
+        border-bottom: 2px solid #1D3F61;
+        padding-top: 50px;
+    }
+
+}

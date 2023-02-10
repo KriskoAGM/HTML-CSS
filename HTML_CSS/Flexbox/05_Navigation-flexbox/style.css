@@ -1,0 +1,35 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main h2 {
+    font-weight: lighter;
+}
