@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+    
+    .hero h1 {
+        text-align: center;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .hero-btns a:first-child {
+        padding: 25px 100px;
+        border-radius: 40px;
+    }
+
+    .row .col-sm-12 h2 {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+
+    .service-btn a {
+        font-size: 18px !important;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .service-box {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .about p {
+        text-align: center;
+    }
+
+    .col-12 h5, .col-12 h2 {
+        text-align: center;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 5px;
+    }
+}

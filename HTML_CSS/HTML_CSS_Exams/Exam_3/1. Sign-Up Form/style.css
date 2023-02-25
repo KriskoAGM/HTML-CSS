@@ -29,33 +29,23 @@ body {
 
 .img-container {
     width: 100%;
+    position: relative;
 }
 
 .img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
-}
-
-.img-container::before {
-    content: '';
-    width: 49.9%;
-    height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.7;
-    z-index: 1;
+    filter: brightness(30%);
 }
 
 .img-container p {
     position: absolute;
     color: white;
-    top: 20px;
-    left: 25px;
     opacity: 10;
+    width: 100%;
+    padding: 30px 30px;
 }
 
 .img-container h1 {
@@ -63,22 +53,28 @@ body {
     color: white;
     font-size: 27px;
     top: 41%;
-    left: 6%;
+    width: 100%;
+    text-align: center;
 }
 
 .img-container h3 {
     position: absolute;
     color: white;
     top: 50%;
-    left: 4%;
+    width: 100%;
+    text-align: center;
 }
 
 .img-container .icons {
     display: flex;
-    gap: 35%;
+    justify-content: center;
     position: absolute;
     top: 90%;
-    left: 20%;
+    width: 100%;
+}
+
+.img-container .icons a {
+    margin: 5px;
 }
 
 p, h1, h3, .icons {

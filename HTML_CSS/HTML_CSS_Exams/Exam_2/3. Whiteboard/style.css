@@ -94,6 +94,7 @@ body {
 
 .main-article {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main-article section {
